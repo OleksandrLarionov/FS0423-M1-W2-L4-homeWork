@@ -152,7 +152,7 @@ const giveMeRandom = function (n){
   let array = [] ;
   for (let i = 0 ; i < n ; i++) {
   
-  array.push((Math.floor(Math.random() * 10) + 1) * array.length)
+  array.push((Math.floor(Math.random() * 10) + 1))
   }
   return array
 }
