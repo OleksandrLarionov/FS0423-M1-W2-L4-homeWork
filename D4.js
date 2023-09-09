@@ -91,7 +91,7 @@ console.log('La mia stringa:    ', epify('array è un ottima piattaforma'))
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const check3and7 = function(n){
-  if(n > 0 && n % 3 === 0 || n % 7 === 0 ) { 
+  if(n > 0 && n % 3 === 0 || n > 0 && n % 7 === 0 ) { 
     return true
   } 
 }
@@ -152,7 +152,7 @@ const giveMeRandom = function (n){
   let array = [] ;
   for (let i = 0 ; i < n ; i++) {
   
-  array.push((Math.floor(Math.random() * 10) + 1))
+  array.push((Math.floor(Math.random() * 10) + 1))   // è per 11
   }
   return array
 }
